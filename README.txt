@@ -1,10 +1,35 @@
-1.
-Technologies Used
-Java
-Spring Boot
-Spring Data JPA
-MySQL
-Maven
+1. 
+This project aims to develop a web-based Library Management System using Spring Boot.
+The application will cater to the needs of both librarians and library members, facilitating efficient management of library resources and user interactions.
+
+Key functionalities:
+
+Librarian Features:
+
+Book Management:
+Add, edit, and delete book entries
+Search for books by title, author, ISBN, etc.
+Manage book categories and availability
+Member Management:
+Add, edit, and delete member information
+View member borrowing history and manage overdue fines
+Reporting:
+Generate reports on book inventory, member activity, and overdue fines
+Member Features:
+
+Search for books:
+Browse the library catalog based on various criteria
+Request books:
+Place holds on available books
+View borrowing history:
+Track borrowed books and due dates
+Renew borrows when available
+Technical Stack:
+
+Backend: Spring Boot
+Database: [Choose a preferred database - e.g., MySQL, MySQL]
+JPA/Hibernate for data persistence
+Spring Security for user authentication and authorization (optional)
 
 2.
 Configure Database (application.properties):
