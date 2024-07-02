@@ -26,10 +26,9 @@ Track borrowed books and due dates
 Renew borrows when available
 Technical Stack:
 
-Backend: Spring Boot
-Database: [Choose a preferred database - e.g., MySQL, MySQL]
+Backend: JAVA Spring Boot
+Database: [Choose a preferred database - e.g., MySQL, PostgreSQL]
 JPA/Hibernate for data persistence
-Spring Security for user authentication and authorization (optional)
 
 2.
 Configure Database (application.properties):
@@ -38,8 +37,8 @@ Configure the database connection properties (e.g., URL, username, password).
 properties
 
 spring.datasource.url=jdbc:mysql://localhost:3306/book_library_db
-spring.datasource.username=root
-spring.datasource.password=root
+spring.datasource.username= set_yours
+spring.datasource.password=set_yours
 
 3.
 Access the Application:
